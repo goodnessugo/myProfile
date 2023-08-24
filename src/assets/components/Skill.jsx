@@ -13,9 +13,9 @@ const Skill = () => {
 
 
         {/* the progress bars section */}
-        <div className='grid grid-cols-1 justify-center items-center sm:grid-cols-2  sm:px-10 gap-10 font-bold'>
+        <div className='grid grid-cols-1 justify-center items-center sm:grid-cols-2 w-full px-5 sm:px-10 gap-10 font-bold'>
 
-          {/* html skill */}
+          {/* html skill */} 
           <div className='w-96 '>
             <p>html</p>
             <ProgressBar completed={85} bgColor='#2956b2' animateOnRender={true} />
