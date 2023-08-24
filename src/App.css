@@ -1,0 +1,43 @@
+
+.tabs{
+    /* background-color: orange; */
+}
+.active-tabs{
+    border-bottom: 1px solid black;
+}
+
+.content{
+    display: none;
+    
+}
+
+.content img{
+    width: 24rem;
+    height: 24rem;
+}
+
+.active-content {
+    display: block;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+/* this is the stying for tablet and desktop view */
+/* using media query */
+@media only screen and (min-width:600px){
+
+    .active-content {
+        display: block;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
