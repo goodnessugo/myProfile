@@ -13,7 +13,7 @@ const Skill = () => {
 
 
         {/* the progress bars section */}
-        <div className='grid grid-cols-1 justify-center items-center sm:grid-cols-2  px-10 gap-10 font-bold'>
+        <div className='grid grid-cols-1 justify-center items-center sm:grid-cols-2  px-10 gap-10 w-fit font-bold'>
 
           {/* html skill */}
           <div className='w-96 '>
