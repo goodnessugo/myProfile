@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <>
-      <div className='h-fit sm:h-screen py-16 sm:py-12 px-5 sm:px-16 bg-gray-200 grid grid-col-1  sm:g' id='about'>
+      <div className='h-fit sm:h-screen py-16 sm:py-12 px-2 sm:px-16 bg-gray-200 grid grid-col-1  sm:g' id='about'>
         {/* first section */}
         <div className='flex flex-col justify-center items-center'>
           <h1 className=' bg-orange-300 py-1 px-3 font-bold '>About Me</h1>
@@ -27,7 +27,7 @@ const About = () => {
 
 
         {/* third section */}
-        <div className='grid grid-cols-2 gap-4 sm:gap-0 sm:grid-cols-4 '>
+        <div className='grid grid-cols-2 gap-3 sm:gap-0 sm:grid-cols-4 '>
           <div className='font-bold '>
             <h1 className='text-gray-500 '>Name:</h1>
             <h1>Goodness George U.</h1>
@@ -35,7 +35,7 @@ const About = () => {
 
           <div className='font-bold '>
             <h1 className='text-gray-500 '>Email:</h1>
-            <h1 className='underline decoration-orange-400 underline-offset-4'>emusical123@gmail.com</h1>
+            <h1 className='underline decoration-orange-400 underline-offset-4'>xxxxx@gmail.com</h1>
           </div>
 
           <div className='font-bold '>

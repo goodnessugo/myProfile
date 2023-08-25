@@ -14,7 +14,7 @@ const Navbar = () => {
     <>
 
 
-      <div className='z-50 grid grid-cols-2 bg-gray-700 text-white font-bold  sticky w-full'>
+      <div className='z-50 grid grid-cols-2 bg-gray-700 text-white font-bold  fixed w-full'>
         {/* this is the logo section */}
         <div className=' logo'>
           <Link to='/'><h1 className='text-orange-300 pt-2 pl-10 text-2xl'>Goodness G.</h1></Link>
