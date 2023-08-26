@@ -29,7 +29,7 @@ const Projects = () => {
 
 
         {/* the mid menu section */}
-        <div className=' flex justify-evenly items-center  sm:px-44  font-bold '>
+        <div className=' flex justify-evenly items-center  sm:px-44 text-sm font-bold '>
           <div onClick={() => toggleTab(1)} className={toggleState === 1 ? "tabs active-tabs" : "tabs"} ><h1 className='cursor-pointer'>All</h1></div>
           <div onClick={() => toggleTab(2)} className={toggleState === 2 ? "tabs active-tabs" : "tabs"} ><h1 className='cursor-pointer'>Details</h1></div>
           <div onClick={() => toggleTab(3)} className={toggleState === 3 ? "tabs active-tabs" : "tabs"} ><h1 className='cursor-pointer'>Mockups</h1></div>

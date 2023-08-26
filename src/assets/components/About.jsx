@@ -35,7 +35,7 @@ const About = () => {
 
           <div className='font-bold '>
             <h1 className='text-gray-500 '>Email:</h1>
-            <h1 className='underline decoration-orange-400 underline-offset-4 '>ggggggg@gmail.com</h1>
+            <h1 className='underline decoration-orange-400 underline-offset-4 '>ggggg@gmail.com</h1>
           </div>
 
           <div className='font-bold '>
