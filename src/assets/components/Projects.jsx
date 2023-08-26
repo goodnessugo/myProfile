@@ -30,11 +30,11 @@ const Projects = () => {
 
         {/* the mid menu section */}
         <div className=' flex justify-evenly items-center  sm:px-44  font-bold '>
-          <div onClick={() => toggleTab(1)} className={toggleState === 1 ? "tabs active-tabs" : "tabs"} >All</div>
-          <div onClick={() => toggleTab(2)} className={toggleState === 2 ? "tabs active-tabs" : "tabs"} >Details</div>
-          <div onClick={() => toggleTab(3)} className={toggleState === 3 ? "tabs active-tabs" : "tabs"} >Mockups</div>
-          <div onClick={() => toggleTab(4)} className={toggleState === 4 ? "tabs active-tabs" : "tabs"} >Youtube Videos</div>
-          <div onClick={() => toggleTab(5)} className={toggleState === 5 ? "tabs active-tabs" : "tabs"} >Vimeo Videos</div>
+          <div onClick={() => toggleTab(1)} className={toggleState === 1 ? "tabs active-tabs" : "tabs"} ><h1 className='cursor-pointer'>All</h1></div>
+          <div onClick={() => toggleTab(2)} className={toggleState === 2 ? "tabs active-tabs" : "tabs"} ><h1 className='cursor-pointer'>Details</h1></div>
+          <div onClick={() => toggleTab(3)} className={toggleState === 3 ? "tabs active-tabs" : "tabs"} ><h1 className='cursor-pointer'>Mockups</h1></div>
+          <div onClick={() => toggleTab(4)} className={toggleState === 4 ? "tabs active-tabs" : "tabs"} ><h1 className='cursor-pointer'>Youtube Videos</h1></div>
+          <div onClick={() => toggleTab(5)} className={toggleState === 5 ? "tabs active-tabs" : "tabs"} ><h1 className='cursor-pointer'>Vimeo Videos</h1></div>
 
         </div>
   
@@ -45,7 +45,7 @@ const Projects = () => {
 
       {/* below are the contents which are initial set to none the visible when clicking the tabs */}
       <>
-            <div className='px-10 py-10 bg-gray-400 content-tabs'>
+            <div className='px-2 py-10 bg-gray-400 content-tabs'>
                
 
                 <div className={toggleState === 1 ? "content active-content" : "content" }>
