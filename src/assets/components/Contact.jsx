@@ -57,7 +57,7 @@ const Contact = () => {
             <textarea type="text" className='w-full h-12 border-black border-b-2 bg-transparent focus:ouline-none focus:shadow-none' />
 
             <div className=' w-full flex justify-center sm:w-fit my-5 font-bold '>
-              <button className='px-10 py-4 bg-gray-700 flex justify-center items-center gap-2 hover:bg-gray-500'>Send <BiRightArrowAlt /></button>
+              <button className='px-10 py-4 text-white bg-gray-700 flex justify-center items-center gap-2 hover:bg-gray-500'>Send <BiRightArrowAlt /></button>
             </div>
 
           </div>

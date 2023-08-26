@@ -9,6 +9,7 @@
 }
 .active-tabs{
     border-bottom: 1px solid black;
+    background-color: yellow;
 }
 
 .content{
