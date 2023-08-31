@@ -21,7 +21,7 @@ const Hero = () => {
 
         <div className='grid grid-row-2 h-fit sm:h-screen py-24 bg-gray-400  sm:grid-cols-2 items-center ' id='hero' >
           <div className='flex justify-center'>
-            <img src={Image1} alt="image" className=' rounded-full h-96 w-auto border-8 border-white drop-shadow-2xl'/>
+            <img src={Image1} alt="image" className=' rounded-full h-72 sm:h-96 w-auto border-8 border-white drop-shadow-2xl'/>
           </div>
         <div className='  flex flex-col justify-center items-center sm:grid grid-row-1 sm:justify-start '>
           <h1 className='text-2xl sm:text-5xl'>HI, I'M A FREELANCER</h1>
