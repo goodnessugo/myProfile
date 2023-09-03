@@ -18,7 +18,7 @@ const About = () => {
           </div>
           <div className=' px-2 py-5 flex flex-col justify-center items-center'>
             <div className='bg-orange-500 h-48 w-48 flex justify-center items-center  rounded-full '>
-              <h1 className='font-bold text-8xl  sm:text-9xl text-white'>27</h1>
+              <h1 className='font-bold text-8xl  sm:text-8xl text-white'>15+</h1>
             </div>
             <h1 className='text-3xl'>Years of <span className='font-bold '>Experience</span></h1>
           </div>
