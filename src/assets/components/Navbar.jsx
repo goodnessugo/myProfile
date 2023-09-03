@@ -46,7 +46,7 @@ const Navbar = () => {
   // this tunrs the NavLinks off and on 
 
 
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
