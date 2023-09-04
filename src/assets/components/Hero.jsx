@@ -10,9 +10,22 @@ import Footer from './Footer'
 import Image1 from '../images/man2.jpg'
 import Image3 from '../images/myProfileImage.jpg'
 import { BsArrowDownCircle } from 'react-icons/bs'
+import { useTypewriter, Cursor } from 'react-simple-typewriter'
+import { TypeAnimation } from 'react-type-animation';
 
 
 const Hero = () => {
+
+  // this is the Typewriter words selection section
+  // const {text} = useTypewriter({
+  //   words: ['Freelancer', 'Designer', 'Musician'],
+  //   loop: {},
+  // });
+
+
+
+
+
   return (
     <>
       <div>
@@ -35,7 +48,17 @@ const Hero = () => {
 
 
           <div className='  flex flex-col justify-center items-center sm:grid grid-row-1 sm:justify-start '>
-            <h1 className='text-3xl sm:text-5xl font-bold pt-5 text-gray-700'>Hi, I'M A Freelancer</h1>
+            <h1 className='text-3xl sm:text-5xl font-bold pt-10 text-gray-700 ' > I AM A {" "}
+              <TypeAnimation
+                sequence={[
+                  'Freelancer', 1000,
+                  'Designer', 1000,
+                  'Developer', 1000
+                ]}
+                style={{ color: 'white' }}
+                repeat={Infinity} />
+
+            </h1>
 
             <h1 className='text-5xl sm:text-8xl font-bold text-white drop-shadow-xl pb-5 sm:pb-0'>GOODNESS</h1>
 

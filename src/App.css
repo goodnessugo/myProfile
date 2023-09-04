@@ -32,6 +32,43 @@
     
 }
 
+/* styling the animation text */
+
+/* .dynamic-text{
+    overflow: hidden;
+}
+.dynamic-text li{
+     list-style: none;
+     position: relative;
+     top: 0;
+     animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide{
+    100%{
+        top: -125px;
+    }
+}
+
+.dynamic-text li ::after{
+     content: " ";
+     position: absolute;
+     left: 0;
+     height: 100%;
+     width: 100%;
+     background-color: rgb(156, 163, 175);
+     border-left: 0.3rem solid orange ;
+     animation: typing 3s steps(10) infinite;
+}
+
+@keyframes typing{
+    40%,60%{
+        left: calc(100% + 30px);
+    }
+    100%{
+        left: 0;
+    }
+} */
 
 /* this is the stying for tablet and desktop view */
 /* using media query */

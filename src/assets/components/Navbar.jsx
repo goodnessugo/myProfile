@@ -18,11 +18,11 @@ const NavLinks = () => {
 
 
       <div className=' '>
-        <Link to='#hero' ><button className=' bg-gray-700 hover:bg-gray-200 hover:text-black ease-in-out duration-300 h-full px-5' >Home</button></Link>
-        <Link to='#about'  ><button className='bg-gray-700  hover:bg-gray-200 hover:text-black ease-in-out duration-300  h-full px-5' >About</button></Link>
-        <Link to='#projects'  ><button className='bg-gray-700  hover:bg-gray-200 hover:text-black ease-in-out duration-300  h-full px-5' >Projects</button></Link>
-        <Link to='#skill'  ><button className=' bg-gray-700  hover:bg-gray-200 hover:text-black ease-in-out duration-300  h-full px-5'>Skill</button></Link>
-        <Link to='#contact'  ><button className='  bg-gray-700  hover:bg-gray-200 hover:text-black ease-in-out duration-300  h-full px-5 '>Contact</button></Link>
+        <Link to='#hero' ><button className=' bg-gray-700 hover:bg-yellow-500 hover:text-black ease-in-out duration-300 h-full px-5' >Home</button></Link>
+        <Link to='#about'  ><button className='bg-gray-700  hover:bg-yellow-500 hover:text-black ease-in-out duration-300  h-full px-5' >About</button></Link>
+        <Link to='#projects'  ><button className='bg-gray-700  hover:bg-yellow-500 hover:text-black ease-in-out duration-300  h-full px-5' >Projects</button></Link>
+        <Link to='#skill'  ><button className=' bg-gray-700  hover:bg-yellow-500 hover:text-black ease-in-out duration-300  h-full px-5'>Skill</button></Link>
+        <Link to='#contact'  ><button className='  bg-gray-700  hover:bg-yellow-500 hover:text-black ease-in-out duration-300  h-full px-5 '>Contact</button></Link>
 
       </div>
 
@@ -85,7 +85,7 @@ const Navbar = () => {
 
         {/* this is the mobile view menu */}
         {isOpen && (
-          <div className='bg-red-500 opacity-80 fixed z-[75] w-screen h-screen md:hidden' onClick={toggleNavbar}>
+          <div className='bg-yellow-500 opacity-80 fixed z-[75] w-screen h-screen md:hidden' onClick={toggleNavbar}>
 
             {/* the close button */}
             <button className=' flex justify-end w-screen px-20 pt-12 ' onClick={toggleNavbar}>
