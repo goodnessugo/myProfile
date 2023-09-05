@@ -18,11 +18,11 @@ const NavLinks = () => {
 
 
       <div className=' '>
-        <Link to='#hero' ><button className=' bg-gray-700 hover:bg-yellow-500 hover:text-black ease-in-out duration-300 h-full px-5' >Home</button></Link>
-        <Link to='#about'  ><button className='bg-gray-700  hover:bg-yellow-500 hover:text-black ease-in-out duration-300  h-full px-5' >About</button></Link>
-        <Link to='#projects'  ><button className='bg-gray-700  hover:bg-yellow-500 hover:text-black ease-in-out duration-300  h-full px-5' >Projects</button></Link>
-        <Link to='#skill'  ><button className=' bg-gray-700  hover:bg-yellow-500 hover:text-black ease-in-out duration-300  h-full px-5'>Skill</button></Link>
-        <Link to='#contact'  ><button className='  bg-gray-700  hover:bg-yellow-500 hover:text-black ease-in-out duration-300  h-full px-5 '>Contact</button></Link>
+        <Link to='#hero'  smooth ><button className=' bg-gray-700 hover:bg-yellow-500 hover:text-black ease-in-out duration-300 h-full px-5' >Home</button></Link>
+        <Link to='#about'   smooth ><button className='bg-gray-700  hover:bg-yellow-500 hover:text-black ease-in-out duration-300  h-full px-5' >About</button></Link>
+        <Link to='#projects'   smooth ><button className='bg-gray-700  hover:bg-yellow-500 hover:text-black ease-in-out duration-300  h-full px-5' >Projects</button></Link>
+        <Link to='#skill'   smooth ><button className=' bg-gray-700  hover:bg-yellow-500 hover:text-black ease-in-out duration-300  h-full px-5'>Skill</button></Link>
+        <Link to='#contact'   smooth ><button className='  bg-gray-700  hover:bg-yellow-500 hover:text-black ease-in-out duration-300  h-full px-5 '>Contact</button></Link>
 
       </div>
 
