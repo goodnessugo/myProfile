@@ -51,12 +51,12 @@ const Hero = () => {
           <div className='  flex flex-col justify-center items-center sm:grid grid-row-1 sm:justify-start '>
             <h1 className='text-3xl sm:text-5xl  pt-10 sm:pb-3 text-gray-700 ' > I AM A FREELANCER </h1>
 
-            <h1 className='text-5xl sm:text-7xl font-bold text-white drop-shadow-xl pb-5 sm:pb-0'>
+            <h1 className='text-4xl sm:text-7xl font-bold text-white drop-shadow-xl pb-5 sm:pb-0'>
             
               <TypeAnimation
                 sequence={[
                   'GOODNESS', 1000,
-                  'WED DEVELOPER', 1000,
+                  'WEB DEVELOPER', 1000,
                   'DESIGNER', 1000,
                   'ENTERPRENUER', 1000
                 ]}
